@@ -1,0 +1,6 @@
+narchgen //generator/kod üreticisi komutu hakkýnda bilgiler verir.
+narchgen new RentACarProject //yeni proje oluþturur.
+cd RentACarProject
+cls
+narchgen generate //kod üretme hakkýnda bilgiler ve komutlar verir.
+narchgen generate crud //ilgili entity seçiminden sonra o entity'nin crud operasyonlarý için CQRS implementasyonunu otomatik yapar.
